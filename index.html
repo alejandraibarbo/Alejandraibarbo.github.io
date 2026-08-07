@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alejandra Ibarbo Álvarez — Digital Illustration</title>
+<meta name="description" content="Digital illustration and vector design portfolio by Alejandra Ibarbo Álvarez, Digital Entertainment Design Engineer.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><circle cx=%2250%22 cy=%2250%22 r=%2242%22 fill=%22%23F7F6F3%22 stroke=%22%233D5AFE%22 stroke-width=%228%22/><circle cx=%2250%22 cy=%2250%22 r=%2210%22 fill=%22%23FF3D68%22/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#contenido">Skip to content</a>
+
+<!-- ============ TOOLBAR / NAV ============ -->
+<header class="toolbar">
+  <a href="#inicio" class="toolbar__mark" aria-label="Home">
+    <svg viewBox="0 0 40 40" width="34" height="34" aria-hidden="true">
+      <circle cx="20" cy="20" r="16" fill="none" stroke="var(--vector-blue)" stroke-width="2.5"/>
+      <circle cx="20" cy="20" r="3.5" fill="var(--node-pink)"/>
+    </svg>
+    <span class="toolbar__mark-text">AIA</span>
+  </a>
+
+  <nav class="toolbar__nav" aria-label="Main navigation">
+    <a href="#proyectos">Projects</a>
+    <a href="#galeria">Gallery</a>
+    <a href="#sobre-mi">About</a>
+    <a href="#contacto">Contact</a>
+  </nav>
+
+  <button class="toolbar__menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mobileNav" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<nav id="mobileNav" class="mobile-nav" aria-label="Mobile navigation">
+  <a href="#proyectos">Projects</a>
+  <a href="#galeria">Gallery</a>
+  <a href="#sobre-mi">About</a>
+  <a href="#contacto">Contact</a>
+</nav>
+
+<main id="contenido">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="inicio">
+    <div class="hero__grid" aria-hidden="true"></div>
+
+    <p class="hero__eyebrow">Illustration Portfolio — 2026</p>
+
+    <h1 class="hero__name" id="heroName">
+      <span class="hero__name-line">Alejandra</span>
+      <span class="hero__name-line">Ibarbo Álvarez</span>
+    </h1>
+
+    <p class="hero__role">Digital Entertainment Design Engineer<br class="hero__role-break"> · Illustration &amp; Vector Design</p>
+
+    <p class="hero__intro">I design clean digital illustrations for games, brands and personal stories — every line answers to a clear idea, never to a stylistic whim.</p>
+
+    <div class="hero__actions">
+      <a href="#proyectos" class="btn btn--primary">View projects</a>
+      <a href="#contacto" class="btn btn--ghost">Get in touch</a>
+    </div>
+
+    <div class="hero__statusbar">
+      <span>stroke</span><span>·</span><span>color</span><span>·</span><span>shape</span>
+      <span class="hero__scroll-cue">Scroll <span class="hero__scroll-arrow">↓</span></span>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="work" id="proyectos">
+    <div class="section-head">
+      <span class="section-head__tag">01 — Selected work</span>
+      <h2>Projects</h2>
+      <p>Commissioned work. Tap any project to see the full case study.</p>
+    </div>
+
+    <div class="grid" id="projectGrid">
+
+      <a class="card project-card" href="proyecto-nimbo.html">
+        <span class="card__frame">
+          <img src="assets/images/proyecto-1.svg" alt="Illustrated visual identity for Nimbo Studio" loading="lazy">
+          <span class="card__node card__node--tl" aria-hidden="true"></span>
+          <span class="card__node card__node--br" aria-hidden="true"></span>
+          <span class="card__expand" aria-hidden="true">View project +</span>
+        </span>
+        <span class="card__meta">
+          <span class="card__title">Visual identity — Nimbo Studio</span>
+          <span class="card__year">2025</span>
+        </span>
+      </a>
+
+      <a class="card project-card" href="proyecto-ondamovil.html">
+        <span class="card__frame">
+          <img src="assets/images/proyecto-2.svg" alt="Character series for the Ondamóvil app" loading="lazy">
+          <span class="card__node card__node--tl" aria-hidden="true"></span>
+          <span class="card__node card__node--br" aria-hidden="true"></span>
+          <span class="card__expand" aria-hidden="true">View project +</span>
+        </span>
+        <span class="card__meta">
+          <span class="card__title">Character series — Ondamóvil App</span>
+          <span class="card__year">2024</span>
+        </span>
+      </a>
+
+      <a class="card project-card" href="proyecto-cauce.html">
+        <span class="card__frame">
+          <img src="assets/images/proyecto-3.svg" alt="Editorial cover for Cauce Magazine" loading="lazy">
+          <span class="card__node card__node--tl" aria-hidden="true"></span>
+          <span class="card__node card__node--br" aria-hidden="true"></span>
+          <span class="card__expand" aria-hidden="true">View project +</span>
+        </span>
+        <span class="card__meta">
+          <span class="card__title">Editorial cover — Cauce Magazine</span>
+          <span class="card__year">2024</span>
+        </span>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- ============ GALLERY ============ -->
+  <section class="gallery" id="galeria">
+    <div class="section-head">
+      <span class="section-head__tag">02 — Archive</span>
+      <h2>Gallery</h2>
+      <p>Loose pieces, studies and personal work. Tap an image to enlarge it.</p>
+    </div>
+
+    <div class="gallery__grid" id="galleryGrid">
+      <button class="gallery__item" type="button" data-full="assets/images/personal-1.svg" data-caption="Portraits in motion — 2025">
+        <img src="assets/images/personal-1.svg" alt="Portraits in motion" loading="lazy">
+      </button>
+      <button class="gallery__item" type="button" data-full="assets/images/personal-2.svg" data-caption="Urban bestiary — 2023">
+        <img src="assets/images/personal-2.svg" alt="Urban bestiary" loading="lazy">
+      </button>
+      <button class="gallery__item" type="button" data-full="assets/images/personal-3.svg" data-caption="Color study: Nocturne — 2023">
+        <img src="assets/images/personal-3.svg" alt="Nocturne color study" loading="lazy">
+      </button>
+      <button class="gallery__item" type="button" data-full="assets/images/personal-4.svg" data-caption="Form study — 2023">
+        <img src="assets/images/personal-4.svg" alt="Form study" loading="lazy">
+      </button>
+      <button class="gallery__item" type="button" data-full="assets/images/personal-5.svg" data-caption="Overlays — 2024">
+        <img src="assets/images/personal-5.svg" alt="Overlays" loading="lazy">
+      </button>
+      <button class="gallery__item" type="button" data-full="assets/images/personal-6.svg" data-caption="Geometric landscape — 2024">
+        <img src="assets/images/personal-6.svg" alt="Geometric landscape" loading="lazy">
+      </button>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="about" id="sobre-mi">
+    <div class="about__mark" aria-hidden="true">
+      <svg viewBox="0 0 200 200" width="100%" height="100%">
+        <circle cx="100" cy="100" r="70" fill="none" stroke="var(--path-grey)" stroke-width="1.5" stroke-dasharray="4 6"/>
+        <circle cx="100" cy="30" r="5" fill="var(--node-pink)"/>
+        <circle cx="163" cy="135" r="5" fill="var(--vector-blue)"/>
+        <circle cx="37" cy="135" r="5" fill="var(--highlight-yellow)"/>
+        <path d="M100,30 L163,135 L37,135 Z" fill="none" stroke="var(--ink)" stroke-width="2"/>
+      </svg>
+    </div>
+    <div class="about__text">
+      <span class="section-head__tag">03 — Profile</span>
+      <h2>About me</h2>
+      <p>I'm a Digital Entertainment Design Engineer with a passion for bringing characters and illustrations to life. Curiosity drives my process — I'm always exploring new techniques and translating them into my own visual language, which has given me the versatility to move fluidly between styles without losing a distinct voice.</p>
+      <p>I'm currently seeking new challenges that push my craft further, sharpening both my design instincts and creative thinking along the way.</p>
+      <ul class="pills">
+        <li>Digital illustration</li>
+        <li>Character design</li>
+        <li>Vector design</li>
+        <li>Basic motion</li>
+        <li>Art direction</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="contact" id="contacto">
+    <span class="section-head__tag">04 — Contact</span>
+    <h2>Let's work together</h2>
+    <p>Reach out if you have a project in mind or just want to say hi.</p>
+    <a href="mailto:youremail@example.com" class="contact__email">youremail@example.com</a>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER / STATUS BAR ============ -->
+<footer class="footer">
+  <div class="footer__row">
+    <span class="footer__name">Alejandra Ibarbo Álvarez</span>
+    <div class="footer__social">
+      <a href="https://instagram.com/yourname" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+        <span>Instagram</span>
+      </a>
+      <a href="https://www.tiktok.com/@yourname" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M14 3v10.5a3.5 3.5 0 1 1-3.5-3.5"/><path d="M14 3c0 3 2.5 5 5 5"/></svg>
+        <span>TikTok</span>
+      </a>
+    </div>
+  </div>
+  <div class="footer__row footer__row--meta">
+    <span>© <span id="year"></span> Alejandra Ibarbo Álvarez</span>
+    <span>Made with strokes and ideas · GitHub Pages</span>
+  </div>
+</footer>
+
+<!-- ============ GALLERY LIGHTBOX ============ -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <div class="lightbox__backdrop" data-close></div>
+  <button class="lightbox__close" type="button" data-close aria-label="Close image">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 5l14 14M19 5L5 19"/></svg>
+  </button>
+  <button class="lightbox__nav lightbox__nav--prev" type="button" id="lightboxPrev" aria-label="Previous image">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 5l-7 7 7 7"/></svg>
+  </button>
+  <button class="lightbox__nav lightbox__nav--next" type="button" id="lightboxNext" aria-label="Next image">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 5l7 7-7 7"/></svg>
+  </button>
+  <figure class="lightbox__figure">
+    <img id="lightboxImage" src="" alt="">
+    <figcaption id="lightboxCaption"></figcaption>
+  </figure>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
