@@ -35,7 +35,7 @@ const lightboxImage = document.getElementById('lightboxImage');
 const lightboxCaption = document.getElementById('lightboxCaption');
 const lightboxPrev = document.getElementById('lightboxPrev');
 const lightboxNext = document.getElementById('lightboxNext');
-const galleryItems = Array.from(document.querySelectorAll('.gallery__item'));
+const galleryItems = Array.from(document.querySelectorAll('.gallery__item, .project-gallery__item'));
 let currentIndex = 0;
 let lastFocusedGallery = null;
 

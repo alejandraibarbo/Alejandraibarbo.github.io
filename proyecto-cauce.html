@@ -75,9 +75,15 @@
   </div>
 
   <div class="project-gallery">
-    <img src="assets/images/proyecto-3-detalle-1.svg" alt="Detail 1 of the Cauce Magazine project" loading="lazy">
-    <img src="assets/images/proyecto-3-detalle-2.svg" alt="Detail 2 of the Cauce Magazine project" loading="lazy">
-    <img src="assets/images/proyecto-3-detalle-3.svg" alt="Detail 3 of the Cauce Magazine project" loading="lazy">
+    <button class="project-gallery__item" type="button" data-full="assets/images/proyecto-3-detalle-1.svg" data-caption="Detail 1 of the Cauce Magazine project">
+      <img src="assets/images/proyecto-3-detalle-1.svg" alt="Detail 1 of the Cauce Magazine project" loading="lazy">
+    </button>
+    <button class="project-gallery__item" type="button" data-full="assets/images/proyecto-3-detalle-2.svg" data-caption="Detail 2 of the Cauce Magazine project">
+      <img src="assets/images/proyecto-3-detalle-2.svg" alt="Detail 2 of the Cauce Magazine project" loading="lazy">
+    </button>
+    <button class="project-gallery__item" type="button" data-full="assets/images/proyecto-3-detalle-3.svg" data-caption="Detail 3 of the Cauce Magazine project">
+      <img src="assets/images/proyecto-3-detalle-3.svg" alt="Detail 3 of the Cauce Magazine project" loading="lazy">
+    </button>
   </div>
 
   <nav class="project-nav" aria-label="Navigate between projects">
@@ -112,6 +118,24 @@
     <span>Made with strokes and ideas · GitHub Pages</span>
   </div>
 </footer>
+
+<!-- ============ PROJECT GALLERY LIGHTBOX ============ -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <div class="lightbox__backdrop" data-close></div>
+  <button class="lightbox__close" type="button" data-close aria-label="Close image">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 5l14 14M19 5L5 19"/></svg>
+  </button>
+  <button class="lightbox__nav lightbox__nav--prev" type="button" id="lightboxPrev" aria-label="Previous image">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 5l-7 7 7 7"/></svg>
+  </button>
+  <button class="lightbox__nav lightbox__nav--next" type="button" id="lightboxNext" aria-label="Next image">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 5l7 7-7 7"/></svg>
+  </button>
+  <figure class="lightbox__figure">
+    <img id="lightboxImage" src="" alt="">
+    <figcaption id="lightboxCaption"></figcaption>
+  </figure>
+</div>
 
 <script src="js/script.js"></script>
 </body>
