@@ -457,6 +457,7 @@ h1,h2,h3{ font-family: var(--font-display); margin: 0; }
   border:1.5px solid var(--path-grey); border-radius:999px; padding:6px 13px;
   color: var(--ink-soft);
 }
+.project-header__trailer{ margin-top:24px; padding:11px 22px; }
 
 .project-cover{
   max-width: var(--container); margin: 36px auto 0; padding: 0 var(--edge);
